@@ -1,0 +1,26 @@
+###
+GET http://localhost:8080/tab3/byFirstContains/foo
+
+<> 2021-09-08T170715.200.json
+
+###
+GET http://localhost:8080/tab3/all
+
+<> 2021-09-08T170709.200.json
+
+###
+GET http://localhost:8080/tab3/maybe/32/ba32
+
+<> 2021-09-08T175641.500.json
+<> 2021-09-08T174812.500.json
+<> 2021-09-08T172821.500.json
+###
+GET http://localhost:8080/tab3/maybe/32/bar32
+
+<> 2021-09-08T175641.500.json
+<> 2021-09-08T174812.500.json
+<> 2021-09-08T172821.500.json
+###
+GET http://localhost:8080/tab3/byId
+
+<> 2021-09-08T180304.500.json
